@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "J1 Task";
+}
+
+
+<h1> Welcome to Chip’s Fast Food Emporium </h1>
+<h2>Select From Our Menu</h2>
+
+<form action="/J1/TotalCal" method="post">
+    <div class="flex-container">
+        <div class="menu">
+            <h2>Our Menu</h2>
+            <div>
+                <h4>Burgers</h4>
+                <ul>
+                    <li>1 - Cheeseburger (461 Calories)</li>
+                    <li>2 - Fish Burger (431 Calories)</li>
+                    <li>3 - Veggie Burger (420 Calories)</li>
+                    <li>4 - no burger</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Side order</h4>
+                <ul>
+                    <li>1 - Fries (100 Calories)</li>
+                    <li>2 - Baked Potato (57 Calories)</li>
+                    <li>3 - Chef Salad (70 Calories)</li>
+                    <li>4 - no side order</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Drinks</h4>
+                <ul>
+                    <li>1 - Soft Drink (130 Calories)</li>
+                    <li>2 - Orange Juice (160 Calories)</li>
+                    <li>2 - Orange Juice (160 Calories)</li>
+                    <li>4 - no drink</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Desserts</h4>
+                <ul>
+                    <li>1 - Apple Pie (167 Calories)</li>
+                    <li>2 - Sundae (266 Calories)</li>
+                    <li>3 - Fruit Cup (75 Calories)</li>
+                    <li>4 - No Dessert</li>
+                </ul>
+            </div>
+        </div>
+        <div class="order">
+            <h2>Order Here</h2>
+            <h3>Enter the code of food item (1-4 only)</h3>
+            <div>
+                <label for="burger">Burger</label>
+                <input type="number" name="burger" id="burger" />
+            </div>
+            <div>
+                <label for="sideOrder">Side Orders</label>
+                <input type="number" name="sideOrder" id="sideOrder" />
+            </div>
+            <div>
+                <label for="drinks">Drinks</label>
+                <input type="number" name="drinks" id="drinks" />
+            </div>
+            <div>
+                <label for="dessert">Desserts</label>
+                <input type="number" name="dessert" id="dessert" />
+            </div>
+            <button type="submit">Order</button>
+        </div>
+    </div>
+</form>
+
+
+

@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "J2 Task";
+}
+
+
+    <h1>Welcome this is J2 task</h1>
+    <h2>Dice Game</h2>
+    <h3>Select number of sides of 2 dice... and output will be number of combination in which total is 10</h3>
+
+    <form action="/J2/Combinations" method="post">
+        <div>
+            <label for="mSide">Dice 1 number of Sides: </label>
+            <input type="number" name="mSide" id="mSide" />
+        </div>
+        <div>
+            <label for="nSide">Dice 2 number of Sides: </label>
+            <input type="number" name="nSide" id="nSide" />
+        </div>
+        <button type="submit">Roll the Dices</button>
+    </form>
+
+
